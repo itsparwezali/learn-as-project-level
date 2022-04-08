@@ -1,0 +1,15 @@
+data-init:
+  requestEventsList:
+    -
+      name: REGISTATION
+      description: Student Registation
+    -
+      name: LOGIN
+      description: Stuent Login
+    -
+      name: VERIFY_EMAIL
+      description: Email Verified
+
+    -
+      name: CHANGE_PASSWORD
+      description: Change Password

@@ -1,0 +1,47 @@
+spring:
+  datasource:
+    name: abc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_student
+    username: parwez305
+    password: parwez305
+
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      ddl-auto: update
+      show-sql: true
+
+server:
+  port: 8080
+
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    database: MYSQL
+#    generate-ddl: true
+#    show-sql: false
+#    hibernate:
+#      ddl-auto: update
+#      hibernate.connection.CharSet: utf8
+#      hibernate.connection.characterEncoding: utf8
+#      hibernate.connection.useUnicode: true
+#      globally_quoted_identifiers: true
+#    properties:
+#      hibernate.cache.use_second_level_cache: false
+#      hibernate.cache.use_query_cache: false
+#      hibernate.generate_statistics: false
+#      hibernate.show_sql: false
+#      hibernate.format_sql: false
+#      hibernate.jdbc.batch_size: 500
+#      hibernate.order_inserts: true
+#      hibernate.order_updates: true
+#  datasource:
+#    v1:
+#      databaseDriverName: com.mysql.jdbc.Driver
+#      url: 'jdbc:mysql://localhost:3306/
+#      username: parwez305
+#      password: parwez305
+#      maxPool: 25
+#      maxIdle: 10
+#      minIdle: 5
+
